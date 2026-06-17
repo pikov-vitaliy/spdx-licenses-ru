@@ -1,4 +1,4 @@
-SPDX Licenses RU
+Russian Guide to SPDX License List
 
 This repository is derived from SPDX License List Data 3.28.0, maintained by the
 SPDX Workgroup, a Linux Foundation Project:
@@ -14,3 +14,10 @@ provided under CC BY 3.0 unless explicitly stated otherwise.
 The original English license and exception texts remain the authoritative source
 for license interpretation. Russian translations and assessments are provided
 for reference and are not legal advice.
+
+This repository is not affiliated with, sponsored by, or endorsed by The Linux
+Foundation or the SPDX Workgroup.
+
+SPDX(R) and The System Package Data Exchange(TM) are trademarks of The Linux
+Foundation. The marks are used only to identify the upstream SPDX License List
+Data.

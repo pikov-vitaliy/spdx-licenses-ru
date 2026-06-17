@@ -1,7 +1,10 @@
-# SPDX Licenses RU
+# Русский справочник по SPDX License List
 
 Русско-английский статический справочник лицензий из официального
-**SPDX License List 3.28.0**.
+**SPDX® License List 3.28.0**.
+
+Это неофициальный производный проект. Он не является ресурсом SPDX Workgroup
+или The Linux Foundation и не предполагает их одобрения.
 
 Проект добавляет к отдельным SPDX-страницам:
 
@@ -68,7 +71,7 @@ py rbpo\generate.py
 
 Публичная версия сайта: <https://spdx.pikov.expert/>.
 
-## Источник данных и лицензия
+## Источник данных, лицензия и атрибуция
 
 Репозиторий основан на
 [SPDX License List Data](https://github.com/spdx/license-list-data) версии 3.28.0
@@ -79,5 +82,14 @@ py rbpo\generate.py
 Русские переводы и справочные оценки в этом репозитории публикуются на тех же
 условиях, если явно не указано иное.
 
+При использовании или перераспространении сохраняйте ссылку на upstream:
+`SPDX License List Data 3.28.0, SPDX Workgroup, a Linux Foundation Project,
+https://github.com/spdx/license-list-data`, а также указывайте, что русские
+переводы и оценки являются неофициальными.
+
 Тексты самих лицензий принадлежат их авторам и приведены как часть справочного
 набора SPDX.
+
+SPDX® and The System Package Data Exchange™ are trademarks of The Linux
+Foundation. They are used here only to identify the upstream SPDX License List
+Data.

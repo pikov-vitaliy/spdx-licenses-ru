@@ -110,9 +110,17 @@ FILTER_CSS = """<style type="text/css">
 .rbpo-filter a.rbpo-reset{color:#00416b;}
 .rbpo-filter .rbpo-count{color:#555;margin-left:auto;font-weight:700;}
 .rbpo-filter .rbpo-hint{color:#666;font-size:.85em;margin-top:6px;}
+.rbpo-unofficial{border:2px solid #8a6d3b;border-radius:6px;padding:10px 14px;margin:14px 0;background:#fff8e5;color:#4a3b19;font-size:.95em;}
+.rbpo-unofficial a{color:#00416b;}
 </style>"""
 
-FILTER_BAR = """<div class="rbpo-filter" lang="ru">
+FILTER_BAR = """<div class="rbpo-unofficial" lang="ru">
+  <strong>Неофициальная русскоязычная производная версия.</strong>
+  Основана на SPDX License List Data 3.28.0. Этот сайт не является официальным
+  ресурсом SPDX Workgroup или The Linux Foundation и не предполагает их одобрения.
+  Официальный каталог: <a href="https://spdx.org/licenses/">spdx.org/licenses</a>.
+</div>
+<div class="rbpo-filter" lang="ru">
   <div class="rbpo-row">
     <label class="rbpo-only"><input type="checkbox" id="rbpo-only" /> Только переведённые на русский (<span id="rbpo-total">0</span>)</label>
     <input type="text" id="rbpo-q" class="rbpo-q" placeholder="Поиск по названию или SPDX-идентификатору…" />
@@ -202,7 +210,9 @@ def build_content(entry: dict, translation_md: str) -> str:
     source = entry.get("source", "auto")
     src_label = "предварительная оценка (черновик)"
     prov = "Неофициальный русский перевод. Официальным и обязательным остается оригинальный текст лицензии."
-    disclaimer = ("Перевод и оценка носят справочный характер и не являются "
+    disclaimer = ("Это неофициальная производная версия, не связанная с SPDX "
+                  "Workgroup или The Linux Foundation и не предполагающая их "
+                  "одобрения. Перевод и оценка носят справочный характер и не являются "
                   "юридической консультацией. При расхождении приоритет имеет "
                   "английский оригинал ниже.")
     if entry.get("source_conflict") or v == "pending":

@@ -1,7 +1,9 @@
 Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-This repository is licensed under the Creative Commons Attribution 3.0 Unported
-license unless a file states otherwise.
+Except where a file or an embedded third-party notice states otherwise, the
+repository-specific additions in this project, including Russian translations,
+reference assessments, generator metadata, and documentation, are provided under
+the Creative Commons Attribution 3.0 Unported license.
 
 SPDX-License-Identifier: CC-BY-3.0
 
@@ -10,3 +12,8 @@ https://creativecommons.org/licenses/by/3.0/legalcode
 
 SPDX license text included in this repository:
 text/CC-BY-3.0.txt
+
+The repository is derived from SPDX License List Data 3.28.0. The original
+English license and exception texts remain the authoritative texts of their
+respective authors or stewards and are included as part of the SPDX reference
+data.
