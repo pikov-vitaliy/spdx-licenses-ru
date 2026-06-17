@@ -342,13 +342,17 @@ def inject_index_filter(path: Path) -> None:
     if not path.exists():
         return
     text = path.read_text(encoding="utf-8")
-    for s, e in (F_CSS, U_BAR, F_BAR, F_JS):
+    for s, e in (F_CSS, F_BAR, F_JS):
         text = re.sub(re.escape(s) + r".*?" + re.escape(e) + r"\n?", "", text, flags=re.S)
+    text = re.sub(r"\n\s*" + re.escape(U_BAR[0]) + r".*?" + re.escape(U_BAR[1]) + r"\s*", "\n      ", text, flags=re.S)
     if "</head>" in text:
         text = text.replace("</head>", f"{F_CSS[0]}\n{FILTER_CSS}\n{F_CSS[1]}\n</head>", 1)
     unofficial_block = f"{U_BAR[0]}\n{UNOFFICIAL_BAR}\n{U_BAR[1]}\n"
-    text = re.sub(r'(<h1 id="preamble">.*?</h1>)',
-                  r"\1\n\n      " + unofficial_block,
+    heading_pattern = r'(<h1 id="preamble">.*?</h1>)'
+    if not re.search(heading_pattern, text, flags=re.S):
+        heading_pattern = r'(<h1>License Exceptions</h1>)'
+    text = re.sub(heading_pattern,
+                  lambda m: m.group(1) + "\n\n      " + unofficial_block,
                   text,
                   count=1,
                   flags=re.S)
