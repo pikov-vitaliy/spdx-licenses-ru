@@ -45,6 +45,7 @@ S_START, S_END = "<!-- RBPO-RU-STYLE-START -->", "<!-- RBPO-RU-STYLE-END -->"
 COL_MARK, CELL_MARK = "<!--RBPO-RU-COL-->", "<!--RBPO-RU-CELL-->"
 # Маркеры панели фильтра/поиска на страницах-индексах (клиентский JS, статический хостинг).
 F_CSS = ("<!-- RBPO-RU-FILTER-CSS-START -->", "<!-- RBPO-RU-FILTER-CSS-END -->")
+U_BAR = ("<!-- RBPO-RU-UNOFFICIAL-START -->", "<!-- RBPO-RU-UNOFFICIAL-END -->")
 F_BAR = ("<!-- RBPO-RU-FILTER-BAR-START -->", "<!-- RBPO-RU-FILTER-BAR-END -->")
 F_JS = ("<!-- RBPO-RU-FILTER-JS-START -->", "<!-- RBPO-RU-FILTER-JS-END -->")
 
@@ -114,13 +115,14 @@ FILTER_CSS = """<style type="text/css">
 .rbpo-unofficial a{color:#00416b;}
 </style>"""
 
-FILTER_BAR = """<div class="rbpo-unofficial" lang="ru">
+UNOFFICIAL_BAR = """<div class="rbpo-unofficial" lang="ru">
   <strong>Неофициальная русскоязычная производная версия.</strong>
   Основана на SPDX License List Data 3.28.0. Этот сайт не является официальным
   ресурсом SPDX Workgroup или The Linux Foundation и не предполагает их одобрения.
   Официальный каталог: <a href="https://spdx.org/licenses/">spdx.org/licenses</a>.
-</div>
-<div class="rbpo-filter" lang="ru">
+</div>"""
+
+FILTER_BAR = """<div class="rbpo-filter" lang="ru">
   <div class="rbpo-row">
     <label class="rbpo-only"><input type="checkbox" id="rbpo-only" /> Только переведённые на русский (<span id="rbpo-total">0</span>)</label>
     <input type="text" id="rbpo-q" class="rbpo-q" placeholder="Поиск по названию или SPDX-идентификатору…" />
@@ -340,10 +342,16 @@ def inject_index_filter(path: Path) -> None:
     if not path.exists():
         return
     text = path.read_text(encoding="utf-8")
-    for s, e in (F_CSS, F_BAR, F_JS):
+    for s, e in (F_CSS, U_BAR, F_BAR, F_JS):
         text = re.sub(re.escape(s) + r".*?" + re.escape(e) + r"\n?", "", text, flags=re.S)
     if "</head>" in text:
         text = text.replace("</head>", f"{F_CSS[0]}\n{FILTER_CSS}\n{F_CSS[1]}\n</head>", 1)
+    unofficial_block = f"{U_BAR[0]}\n{UNOFFICIAL_BAR}\n{U_BAR[1]}\n"
+    text = re.sub(r'(<h1 id="preamble">.*?</h1>)',
+                  r"\1\n\n      " + unofficial_block,
+                  text,
+                  count=1,
+                  flags=re.S)
     text = re.sub(r"<table", f"{F_BAR[0]}\n{FILTER_BAR}\n{F_BAR[1]}\n<table", text, count=1)
     js_block = f"{F_JS[0]}\n{FILTER_JS}\n{F_JS[1]}\n"
     if "</body>" in text:
