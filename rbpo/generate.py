@@ -119,6 +119,9 @@ UNOFFICIAL_BAR = """<div class="rbpo-unofficial" lang="ru">
   <strong>Неофициальная русскоязычная производная версия.</strong>
   Основана на SPDX License List Data 3.28.0. Этот сайт не является официальным
   ресурсом SPDX Workgroup или The Linux Foundation и не предполагает их одобрения.
+  Переводы и предварительные оценки носят справочный характер и не являются
+  юридической консультацией. При расхождении приоритет имеет английский оригинал
+  лицензии или исключения.
   Официальный каталог: <a href="https://spdx.org/licenses/">spdx.org/licenses</a>.
 </div>"""
 
@@ -166,6 +169,10 @@ def md_to_paragraphs(md_text: str) -> str:
 
 def count_paragraphs(text: str) -> int:
     return len([b for b in re.split(r"\n\s*\n", text.strip()) if b.strip()])
+
+
+def write_text_lf(path: Path, text: str) -> None:
+    path.write_text(text, encoding="utf-8", newline="\n")
 
 
 def en_paragraph_count(spdx_id: str):
@@ -264,7 +271,7 @@ def get_pristine(lid: str) -> str:
     if had_markers:
         src = re.sub(r"\n(?:[ \t]*\n){2,}", "\n\n", src)
     PRISTINE.mkdir(parents=True, exist_ok=True)
-    pf.write_text(src, encoding="utf-8")
+    write_text_lf(pf, src)
     return src
 
 
@@ -305,7 +312,7 @@ def update_index_file(path: Path, done_ids: set) -> None:
     text = path.read_text(encoding="utf-8")
     bak = path.parent / (path.name + ".orig")
     if not bak.exists():
-        bak.write_text(text, encoding="utf-8")
+        write_text_lf(bak, text)
     th = f'<th class="sorttable_nosort">{COL_MARK}Справка RU</th>'
 
     # 1) колонка-заголовок «Справка RU» в КАЖДУЮ таблицу файла.
@@ -332,7 +339,7 @@ def update_index_file(path: Path, done_ids: set) -> None:
         return row.replace("</tr>", cell + "</tr>", 1)
 
     text = re.sub(r"<tr>.*?</tr>", repl, text, flags=re.S)
-    path.write_text(text, encoding="utf-8")
+    write_text_lf(path, text)
 
 
 def inject_index_filter(path: Path) -> None:
@@ -362,7 +369,7 @@ def inject_index_filter(path: Path) -> None:
         text = text.replace("</body>", js_block + "</body>", 1)
     else:
         text = text.replace("</html>", js_block + "</html>", 1)
-    path.write_text(text, encoding="utf-8")
+    write_text_lf(path, text)
 
 
 def main(argv):
@@ -377,12 +384,12 @@ def main(argv):
         if ok:
             translation = (TRANSLATIONS / f"{lid}.md").read_text(encoding="utf-8")
             new_html = inject_page(get_pristine(lid), build_content(entry, translation))
-            (WEBSITE / f"{lid}.html").write_text(new_html, encoding="utf-8")
+            write_text_lf(WEBSITE / f"{lid}.html", new_html)
             print(f"[ok]   {lid}: опубликовано (source={entry.get('source')}, verdict={entry.get('verdict')}, {reason})")
         else:
             # gate НЕ пройден: если страница была опубликована нами — снять (вернуть pristine)
             if is_published(lid):
-                (WEBSITE / f"{lid}.html").write_text(get_pristine(lid), encoding="utf-8")
+                write_text_lf(WEBSITE / f"{lid}.html", get_pristine(lid))
                 print(f"[unpub] {lid}: снято с публикации — {reason}")
             else:
                 print(f"[skip] {lid}: {reason}")
