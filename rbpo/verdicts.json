@@ -1,0 +1,2018 @@
+{
+  "0BSD": {
+    "spdx_id": "0BSD",
+    "name_full": "BSD Zero Clause License",
+    "name_ru": "Лицензия BSD Zero Clause",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "0BSD (BSD Zero Clause) — максимально пермиссивная лицензия, эквивалент общественного достояния: разрешает использование, копирование, изменение и распространение в любых целях без каких-либо условий (не требует даже указания авторства). Copyleft отсутствует, раскрытие исходного кода не требуется — совместима с распространением в составе закрытого или коммерческого продукта без ограничений.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "MIT": {
+    "spdx_id": "MIT",
+    "name_full": "Лицензия MIT",
+    "name_ru": "Лицензия MIT",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Пермиссивная лицензия. Разрешает любое использование, изменение, слияние, публикацию, распространение, сублицензирование и продажу копий; единственное условие — включать уведомление об авторском праве и текст лицензии во все копии или существенные части. Copyleft отсутствует, раскрытие исходного кода не требуется. Безопасна для распространения получателю.",
+    "source": "auto",
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "Apache-2.0": {
+    "spdx_id": "Apache-2.0",
+    "name_full": "Лицензия Apache 2.0",
+    "name_ru": "Лицензия Apache 2.0",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use",
+      "patent-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use"
+    ],
+    "justification_ru": "Пермиссивная лицензия с ЯВНОЙ патентной лицензией. Разрешает использование, изменение, распространение и сублицензирование в исходной и объектной формах, в т.ч. коммерчески. Условия: сохранять уведомления об авторстве/патентах/товарных знаках, помечать изменённые файлы, прикладывать копию лицензии и файл NOTICE (если он есть). Патентная лицензия прекращается, если получатель инициирует патентный иск против Произведения (п. 3 — патентная ретрорсия). Имена и товарные знаки лицензиара использовать нельзя (п. 6). Copyleft отсутствует — раскрытие исходного кода не требуется, допускается включение в проприетарные продукты. Безопасна для распространения получателю.",
+    "source": "auto",
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "BSD-3-Clause": {
+    "spdx_id": "BSD-3-Clause",
+    "name_full": "Лицензия BSD 3-Clause",
+    "name_ru": "Лицензия BSD 3-Clause",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use"
+    ],
+    "justification_ru": "Пермиссивная лицензия. Разрешает использование, изменение и распространение в исходной и двоичной формах при сохранении уведомления об авторском праве, перечня условий и отказа от ответственности. Третий пункт запрещает использовать имя правообладателя и имена участников для поддержки/продвижения производных продуктов без письменного разрешения (ограничение на товарные знаки/имена). Copyleft отсутствует, раскрытие исходного кода не требуется. Безопасна.",
+    "source": "auto",
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "ISC": {
+    "spdx_id": "ISC",
+    "name_full": "Лицензия ISC",
+    "name_ru": "Лицензия ISC",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Пермиссивная лицензия (функциональный эквивалент MIT/BSD). Разрешает использование, копирование, изменение и распространение в любых целях за плату или бесплатно; единственное условие — сохранять уведомление об авторском праве и текст разрешения. Copyleft отсутствует, раскрытие исходного кода не требуется, передача получателю не ограничена. Безопасна.",
+    "source": "auto",
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "Zlib": {
+    "spdx_id": "Zlib",
+    "name_full": "Лицензия Zlib",
+    "name_ru": "Лицензия Zlib",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Пермиссивная лицензия. Разрешает любое использование, включая коммерческое, изменение и свободное распространение. Условия: не искажать происхождение ПО, явно помечать изменённые версии исходного кода, не удалять данное уведомление. Copyleft отсутствует, раскрытие исходного кода не требуется. Безопасна.",
+    "source": "auto",
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "CC0-1.0": {
+    "spdx_id": "CC0-1.0",
+    "name_full": "Creative Commons Zero v1.0 (общественное достояние)",
+    "name_ru": "Creative Commons Zero v1.0 (общественное достояние)",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [],
+    "limitations": [
+      "liability",
+      "warranty",
+      "patent-use",
+      "trademark-use"
+    ],
+    "justification_ru": "Передача произведения в общественное достояние: Заявитель максимально полно и безотзывно отказывается от авторского права и смежных прав; при невозможности отказа в какой-либо юрисдикции действует безвозмездная, всемирная, безотзывная лицензия на те же действия. Никаких условий (указание авторства НЕ требуется). ВАЖНО: права на товарные знаки и патенты НЕ передаются и не лицензируются (п. 4a) — патентные риски остаются вне CC0. Гарантии и ответственность исключены. Copyleft отсутствует, раскрытие исходного кода не требуется. Безопасна для использования и передачи получателю.",
+    "source": "auto",
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "CC-BY-2.5": {
+    "spdx_id": "CC-BY-2.5",
+    "name_full": "Creative Commons Attribution 2.5",
+    "name_ru": "Creative Commons Attribution 2.5",
+    "verdict": "risk",
+    "confidence": "medium",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use"
+    ],
+    "justification_ru": "Creative Commons «С указанием авторства» 2.5 — лицензия, ориентированная на КОНТЕНТ (тексты, медиа, данные, документация), а не на программный код. Copyleft отсутствует, раскрытие исходного кода производного НЕ требуется, продукт в целом остаётся проприетарным. Тем не менее это РИСК (вердикт не зависит от вида компонента — код, данные или медиа): §4(a) запрещает применять к Произведению технические средства защиты (DRM), контролирующие доступ или использование вопреки условиям лицензии, — то есть компонент должен оставаться доступным получателю для использования; обязательная атрибуция не приспособлена к ПО; патентный грант отсутствует (патентный риск не закрыт); Creative Commons и FSF не рекомендуют CC-BY для программного обеспечения. → 🟡 Риск: применять при изоляции компонента и после отдельной проверки условий применения.",
+    "source": "auto",
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "MPL-2.0": {
+    "spdx_id": "MPL-2.0",
+    "name_full": "Mozilla Public License 2.0",
+    "name_ru": "Публичная лицензия Mozilla, версия 2.0",
+    "verdict": "risk",
+    "confidence": "high",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use",
+      "patent-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "same-license--file"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use",
+      "patent-retaliation"
+    ],
+    "justification_ru": "Публичная лицензия Mozilla (MPL) 2.0 — СЛАБЫЙ (пофайловый) copyleft. Разрешает использование, изменение, распространение + патентный грант. Условие: «Охватываемое ПО» (файлы под MPL и Модификации к ним) при распространении сохраняет форму Исходного кода под MPL с открытием исходников (разделы 3.1/3.2) — copyleft действует ПОФАЙЛОВО. МОЖНО объединять с другим кодом в «Бо́льшее произведение» под своей лицензией и распространять Исполняемую форму под иной лицензией (3.2/3.3) — но MPL-файлы остаются под MPL с открытым исходником. Права на товарные знаки не предоставляются (2.3); патентная ретрорсия (§5.2: патентный иск прекращает права). Совместима с GPL/LGPL/AGPL при отсутствии пометки «Incompatible With Secondary Licenses». → РИСК: при изоляции в отдельных файлах обычно приемлемо, но требует открытия исходников MPL-файлов. Применять при условиях и после отдельной проверки условий применения.",
+    "source": "auto",
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "CDDL-1.1": {
+    "spdx_id": "CDDL-1.1",
+    "name_full": "Common Development and Distribution License 1.1",
+    "name_ru": "Общая лицензия разработки и распространения (CDDL), версия 1.1",
+    "verdict": "risk",
+    "confidence": "high",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use",
+      "patent-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "document-changes",
+      "same-license--file"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "patent-retaliation"
+    ],
+    "justification_ru": "Общая лицензия разработки и распространения (CDDL) 1.1 — СЛАБЫЙ (пофайловый) copyleft, близкий к MPL. Разрешает использование, изменение, распространение + патентный грант. Условия: «Охватываемое ПО» (изменённые/новые файлы с кодом по CDDL) распространять с открытием Исходного кода под CDDL (раздел 3.1); помечать себя как Участника изменений (3.3); сохранять уведомления об авторстве/патентах/ТЗ. МОЖНО объединять с кодом под другой лицензией в «Бо́льшее произведение» и распространять Исполняемую форму под своей лицензией (3.5/3.6) — но сами CDDL-файлы остаются под CDDL с открытым исходником. Патентная ретрорсия (§6.2: патентный иск против ПО прекращает права). → РИСК: при изоляции в отдельных файлах/динамической комбинации обычно приемлемо, но требует открытия исходников CDDL-файлов и несовместима с GPL. Применять при условиях и после отдельной проверки условий применения.",
+    "source": "auto",
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "EPL-1.0": {
+    "spdx_id": "EPL-1.0",
+    "name_full": "Eclipse Public License 1.0",
+    "name_ru": "Eclipse Public License 1.0",
+    "verdict": "risk",
+    "confidence": "high",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use",
+      "patent-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "same-license"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "patent-retaliation"
+    ],
+    "justification_ru": "Eclipse Public License 1.0 — СЛАБЫЙ copyleft. Разрешает коммерческое использование, изменение, распространение в исходной и объектной формах + патентный грант. Условия: исходную форму распространять под EPL (та же лицензия для самой Программы и её изменений), приложить текст соглашения и сохранять уведомления; при распространении объектного кода под своей лицензией — обеспечить отказ от гарантий/ответственности от имени всех Вкладчиков и указать, как получить исходный код Программы. Патентная лицензия прекращается при патентном иске против Программы (§7). Слабость copyleft: отдельные модули, лишь связываемые (linking) с Программой и не являющиеся её производными, под EPL не подпадают — продукт в целом остаётся проприетарным. → РИСК: раскрывается исходный код только самой EPL-Программы и её изменений; при изоляции отдельным компонентом / динамической линковке совместима с проприетарной поставкой. Применять при изоляции и после отдельной проверки условий применения.",
+    "source": "auto",
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "EPL-2.0": {
+    "spdx_id": "EPL-2.0",
+    "name_full": "Eclipse Public License 2.0",
+    "name_ru": "Публичная лицензия Eclipse, версия 2.0",
+    "verdict": "risk",
+    "confidence": "high",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use",
+      "patent-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "same-license"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "patent-retaliation"
+    ],
+    "justification_ru": "Публичная лицензия Eclipse (EPL) 2.0 — СЛАБЫЙ copyleft. Разрешает коммерческое использование, изменение, распространение в исходной и иных формах + патентный грант. Условия: при распространении Программа должна быть доступна как Исходный код под EPL (раздел 3.1/3.2) + приложить текст Соглашения + сохранять уведомления; можно распространять под иной лицензией, если она отказывается от гарантий/ответственности за всех Вкладчиков и не ограничивает права на Исходный код. Патентная лицензия ПРЕКРАЩАЕТСЯ при патентном иске против Программы (§7). НОВОЕ в 2.0: совместимость с GPL-2.0+ через «Вторичную лицензию», если первоначальный Вкладчик это разрешил (можно комбинировать EPL-код с GPL-кодом). Слабость copyleft: отдельные модули, лишь связываемые с Программой, под EPL не подпадают. → РИСК: при изоляции/динамической линковке обычно приемлемо, но изменения самой EPL-программы и её исходники остаются под EPL. Применять при условиях и после отдельной проверки условий применения.",
+    "source": "auto",
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "LGPL-2.1-or-later": {
+    "spdx_id": "LGPL-2.1-or-later",
+    "name_full": "GNU Lesser General Public License v2.1 or later",
+    "name_ru": "Стандартная общественная лицензия ограниченного применения GNU, версия 2.1 или новее",
+    "verdict": "risk",
+    "confidence": "high",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "document-changes",
+      "same-license"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Стандартная общественная лицензия ограниченного применения GNU 2.1 (LGPL) — СЛАБЫЙ copyleft для библиотек. Сама Библиотека и её изменения остаются под LGPL с раскрытием исходного кода (разделы 2, 4); изменённые файлы помечаются (2b). НО разрешает связывание (linking) с проприетарными программами: «произведение, использующее Библиотеку» (раздел 5) — вне copyleft, а исполняемый файл с Библиотекой можно распространять на своих условиях (раздел 6) при условии, что пользователь может заменить Библиотеку на изменённую версию (предоставить объектные файлы для релинковки ЛИБО динамическая/разделяемая линковка) + указать использование LGPL + приложить лицензию. → РИСК: при ДИНАМИЧЕСКОЙ линковке и возможности замены обычно совместима с проприетарной поставкой; при СТАТИЧЕСКОЙ нужно отдать объектные файлы для релинковки. Изменения самой Библиотеки остаются под LGPL. Применять при изоляции/динамической линковке и после отдельной проверки условий применения.",
+    "source": "auto",
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "GPL-3.0-only": {
+    "spdx_id": "GPL-3.0-only",
+    "name_full": "GNU General Public License v3.0 only",
+    "name_ru": "Стандартная общественная лицензия GNU, версия 3",
+    "verdict": "unsafe",
+    "confidence": "high",
+    "copyleft_type": "strong",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use",
+      "patent-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "document-changes",
+      "same-license"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "GPL-3.0 — сильный («вирусный») copyleft: любое распространяемое произведение, основанное на Программе, должно ЦЕЛИКОМ лицензироваться под GPL-3.0 с раскрытием полного Соответствующего исходного кода всем получателям (разделы 5, 6); присутствуют патентный грант участников и запрет DRM-замков на потребительских устройствах. Проприетарность продукта становится невозможной → компонент НЕЛЬЗЯ включить в продукт получателя НИ НА КАКИХ условиях при обычном использовании. Единственное законное применение — полная изоляция (отдельный процесс/инструмент вне поставки) после отдельной проверки условий применения; это исключение, а не способ обезопасить компонент.",
+    "source": "auto",
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "BSD-2-Clause": {
+    "spdx_id": "BSD-2-Clause",
+    "name_full": "Лицензия BSD 2-Clause («Упрощённая»)",
+    "name_ru": "Лицензия BSD 2-Clause («Упрощённая»)",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "BSD-2-Clause («Упрощённая») — пермиссивная: разрешает коммерческое использование, модификацию и распространение; требует лишь сохранить уведомление об авторском праве и текст отказа от ответственности. Copyleft отсутствует, исходный код компонента не раскрывается — ни оригинальный, ни модифицированный → безопасна для распространения в составе закрытого или коммерческого продукта.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "BSD-1-Clause": {
+    "spdx_id": "BSD-1-Clause",
+    "name_full": "Лицензия BSD 1-Clause",
+    "name_ru": "Лицензия BSD 1-Clause",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "BSD-1-Clause — пермиссивная лицензия: единственное условие — сохранить уведомление об авторском праве и текст отказа от ответственности при распространении. Copyleft отсутствует, исходный код компонента не раскрывается — ни оригинальный, ни модифицированный. Безопасна для включения в проприетарный продукт.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "Unlicense": {
+    "spdx_id": "Unlicense",
+    "name_full": "The Unlicense (передача в общественное достояние)",
+    "name_ru": "The Unlicense (передача в общественное достояние)",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Unlicense — посвящение программного обеспечения в общественное достояние: разрешает любое использование, копирование, изменение, продажу и распространение без каких-либо условий. Copyleft отсутствует, исходный код компонента не раскрывается. ПРИМЕЧАНИЕ: лицензия не предоставляет явных прав на патенты — патентный риск остаётся вне лицензии (предмет внимания, но не основание понижать вердикт). Безопасна для распространения получателю.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "WTFPL": {
+    "spdx_id": "WTFPL",
+    "name_full": "Публичная лицензия «Делай что хочешь» (WTFPL)",
+    "name_ru": "Публичная лицензия «Делай что хочешь» (WTFPL)",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [],
+    "limitations": [],
+    "justification_ru": "WTFPL — предельно пермиссивная лицензия: разрешает делать с программным обеспечением что угодно без каких-либо условий. Обязательств и copyleft нет.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "BSL-1.0": {
+    "spdx_id": "BSL-1.0",
+    "name_full": "Программная лицензия Boost 1.0",
+    "name_ru": "Программная лицензия Boost 1.0",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Boost Software License 1.0 — пермиссивная: требует сохранить уведомление об авторском праве (кроме случая распространения исключительно машинным объектным кодом). Copyleft отсутствует, исходный код компонента не раскрывается — ни оригинальный, ни модифицированный. Безопасна для включения в проприетарный продукт.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "Beerware": {
+    "spdx_id": "Beerware",
+    "name_full": "Пивная лицензия (Beerware)",
+    "name_ru": "Пивная лицензия (Beerware)",
+    "verdict": "safe",
+    "confidence": "medium",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright"
+    ],
+    "limitations": [],
+    "justification_ru": "Beerware — предельно пермиссивная лицензия: при условии сохранения данного уведомления разрешает делать с программным обеспечением что угодно. Обязательств и copyleft нет.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "FSFAP": {
+    "spdx_id": "FSFAP",
+    "name_full": "FSF All Permissive License",
+    "name_ru": "FSF All Permissive License",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright"
+    ],
+    "limitations": [
+      "warranty"
+    ],
+    "justification_ru": "FSF All Permissive License — пермиссивная лицензия: разрешает копирование и распространение, с изменениями или без, при сохранении уведомления об авторских правах; предоставляется без гарантий. Copyleft отсутствует.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "FSFULLR": {
+    "spdx_id": "FSFULLR",
+    "name_full": "FSF Unlimited License (с сохранением уведомления о лицензии)",
+    "name_ru": "FSF Unlimited License (с сохранением уведомления о лицензии)",
+    "verdict": "safe",
+    "confidence": "medium",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright"
+    ],
+    "limitations": [],
+    "justification_ru": "FSF Unlimited License (с сохранением уведомления) — пермиссивная лицензия: даёт неограниченное разрешение копировать и/или распространять файл, с изменениями или без, при условии сохранения настоящего уведомления.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "TCL": {
+    "spdx_id": "TCL",
+    "name_full": "Лицензия Tcl/Tk",
+    "name_ru": "Лицензия Tcl/Tk",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Лицензия Tcl/Tk — пермиссивная: разрешает использование, копирование, изменение и распространение для любых целей при сохранении уведомлений об авторских правах. Copyleft отсутствует. Содержит оговорку об «Ограниченных правах» при поставке госорганам США (не препятствует коммерческой поставке).",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "BSD-2-Clause-NetBSD": {
+    "spdx_id": "BSD-2-Clause-NetBSD",
+    "name_full": "Лицензия BSD 2-Clause (NetBSD)",
+    "name_ru": "Лицензия BSD 2-Clause (NetBSD)",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Вариант BSD 2-Clause (NetBSD Foundation): пермиссивная лицензия, требует лишь сохранить уведомление об авторском праве и текст отказа от ответственности при распространении. Copyleft отсутствует, исходный код компонента не раскрывается — ни оригинальный, ни модифицированный. Безопасна для включения в проприетарный продукт.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "BSD-4-Clause": {
+    "spdx_id": "BSD-4-Clause",
+    "name_full": "Лицензия BSD 4-Clause («оригинальная»)",
+    "name_ru": "Лицензия BSD 4-Clause («оригинальная»)",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "advertising-clause"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use"
+    ],
+    "justification_ru": "BSD 4-Clause ('оригинальная') — ПЕРМИССИВНАЯ: copyleft отсутствует, исходный код компонента не предоставляется пользователю (ни оригинальный, ни модифицированный), та же лицензия не навязывается → поставке проприетарного продукта не препятствует. Особенность — 'рекламная оговорка' (упоминать разработчика во ВСЕХ рекламных материалах) и запрет использовать имя для продвижения без разрешения: это операционное условие/ограничение на товарные знаки, безопасность не нарушает (но из-за рекламной оговорки лицензия несовместима с GPL — это ортогонально безопасности проприетарной поставки). → 🟢 Безопасно.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "Bitstream-Vera": {
+    "spdx_id": "Bitstream-Vera",
+    "name_full": "Шрифтовая лицензия Bitstream Vera",
+    "name_ru": "Шрифтовая лицензия Bitstream Vera",
+    "verdict": "safe",
+    "confidence": "medium",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "rename-on-modify"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use",
+      "no-standalone-font-sale"
+    ],
+    "justification_ru": "Шрифтовая лицензия Bitstream Vera. Для нашего сценария (шрифт включён/встроен в продукт) — БЕЗОПАСНО: copyleft на продукт отсутствует, исходный код продукта не раскрывается, условия минимальны. Все условия касаются ТОЛЬКО самого шрифта: сохранять уведомления об авторстве; шрифт нельзя продавать ОТДЕЛЬНО (в составе ПО — можно); при МОДИФИКАЦИИ — переименовать (убрать имена «Bitstream»/«Vera») и держать производный шрифт под этой же лицензией; товарные знаки Bitstream/Gnome нельзя использовать для продвижения. На проприетарность продукта это не влияет → 🟢 Безопасно.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "Unicode-DFS-2016": {
+    "spdx_id": "Unicode-DFS-2016",
+    "name_full": "Лицензионное соглашение Unicode (файлы данных и ПО), 2016",
+    "name_ru": "Лицензионное соглашение Unicode (файлы данных и ПО), 2016",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use"
+    ],
+    "justification_ru": "Лицензия Unicode на файлы данных и ПО (2016) — ПЕРМИССИВНАЯ: разрешает любое использование, распространение, изменение и продажу. Copyleft отсутствует — исходный код/файлы данных компонента не раскрываются пользователю как обязательство, та же лицензия не навязывается. Минимальные условия: сохранять уведомление об авторском праве и текст разрешения в каждой копии данных и ПО (для изменённых файлов — пометить как изменённые); имя 'Unicode' нельзя использовать в рекламе без разрешения. Безопасна для распространения получателю → 🟢.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "W3C": {
+    "spdx_id": "W3C",
+    "name_full": "Лицензия на программное обеспечение W3C",
+    "name_ru": "Лицензия на программное обеспечение W3C",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use"
+    ],
+    "justification_ru": "Лицензия W3C Software: пермиссивная — разрешает использование, изменение и распространение при сохранении уведомления, указании изменений и без использования имени/товарных знаков W3C в рекламе. Совместима с GPL, одобрена OSI. Copyleft отсутствует.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "IJG": {
+    "spdx_id": "IJG",
+    "name_full": "Лицензия Independent JPEG Group (IJG)",
+    "name_ru": "Лицензия Independent JPEG Group (IJG)",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use"
+    ],
+    "justification_ru": "Лицензия IJG (Independent JPEG Group) — ПЕРМИССИВНАЯ: разрешает использование, изменение и распространение для любых целей, прямо поощряет применение в коммерческих продуктах. Copyleft отсутствует — исходный код компонента не предоставляется пользователю (ни оригинальный, ни модифицированный), та же лицензия не навязывается. Минимальные условия: сохранять уведомления, помечать изменения, упоминать IJG; имя авторов нельзя использовать в рекламе (ограничение на товарные знаки). Безопасна для распространения получателю без ограничений → 🟢.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "Libpng": {
+    "spdx_id": "Libpng",
+    "name_full": "Лицензия libpng",
+    "name_ru": "Лицензия libpng",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Лицензия libpng — ПЕРМИССИВНАЯ (в стиле BSD/zlib): разрешает любое использование, включая коммерческое, изменение и распространение. Copyleft отсутствует — исходный код компонента не предоставляется пользователю (ни оригинальный, ни модифицированный), та же лицензия не навязывается. Минимальные условия: не искажать происхождение ПО, помечать изменённые версии и сохранять уведомление об авторском праве. Безопасна для поставки проприетарного продукта получателю → 🟢.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "AFL-2.0": {
+    "spdx_id": "AFL-2.0",
+    "name_full": "Academic Free License 2.0 (Академическая свободная лицензия)",
+    "name_ru": "Academic Free License 2.0 (Академическая свободная лицензия)",
+    "verdict": "risk",
+    "confidence": "medium",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use",
+      "patent-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "include-copyright--source"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use",
+      "patent-retaliation"
+    ],
+    "justification_ru": "Academic Free License 2.0 — пермиссивная (НЕ copyleft): производные можно лицензировать иначе, ваш исходный код раскрывать не нужно, есть явный патентный грант. Обязанность предоставить исходный код по §3 лежит на ЛИЦЕНЗИАРЕ оригинального произведения, а не на вас. Продукт остаётся проприетарным. Risk не из-за раскрытия исходников, а из-за: патентной ретрорсии §10 (лицензия и патентный грант прекращаются при вашем патентном иске), требования явного согласия получателей §9 и сохранения Attribution Notices §6 → требует оценки профильного специалиста → 🟡 Риск.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "OFL-1.1": {
+    "spdx_id": "OFL-1.1",
+    "name_full": "SIL Open Font License 1.1 (Открытая шрифтовая лицензия SIL)",
+    "name_ru": "SIL Open Font License 1.1 (Открытая шрифтовая лицензия SIL)",
+    "verdict": "safe",
+    "confidence": "medium",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "same-license",
+      "rename-on-modify"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use",
+      "no-standalone-font-sale"
+    ],
+    "justification_ru": "SIL Open Font License 1.1 — свободная шрифтовая лицензия. Для нашего сценария (шрифт включён/встроен в продукт, в том числе проприетарный и платный) — БЕЗОПАСНО: по OFL-FAQ включение шрифта в ПО НЕ считается «распространением шрифта» и не накладывает обязательств на продукт; исходный код продукта не раскрывается, продукт остаётся проприетарным. Имеющийся у OFL «шрифтовой copyleft» (same-license) и прочие условия касаются ТОЛЬКО самого шрифта и срабатывают лишь при отдельных действиях с ним: при распространении шрифта — сохранять уведомления и текст OFL; шрифт нельзя продавать ОТДЕЛЬНО (в составе ПО — можно); при МОДИФИКАЦИИ шрифта — не использовать Reserved Font Name и держать производный шрифт под OFL. На проприетарность продукта это не влияет → 🟢 Безопасно (при обычном встраивании; модификация или отдельное распространение самого шрифта — отдельная оценка).",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "Python-2.0": {
+    "spdx_id": "Python-2.0",
+    "name_full": "Лицензия Python Software Foundation 2.0",
+    "name_ru": "Лицензия Python Software Foundation 2.0",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use"
+    ],
+    "justification_ru": "Лицензия Python Software Foundation 2.0 — пермиссивная (включает исторические соглашения PSF/BeOpen/CNRI/CWI): разрешает использование, изменение и распространение для любых целей; требует сохранения уведомления об авторских правах и лицензии PSF и краткого описания внесённых изменений; не даёт прав на товарные знаки PSF/BeOpen/CNRI/CWI и запрещает использование их имён для рекламы. Copyleft отсутствует, совместима с GPL.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "Artistic-1.0": {
+    "spdx_id": "Artistic-1.0",
+    "name_full": "Художественная лицензия 1.0 (Artistic License 1.0)",
+    "name_ru": "Художественная лицензия 1.0 (Artistic License 1.0)",
+    "verdict": "risk",
+    "confidence": "medium",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use"
+    ],
+    "justification_ru": "Artistic License 1.0 (Perl) — условно-пермиссивная: неизменённую «Стандартную версию» можно включать в коммерческое ПО при сохранении уведомлений (риск низкий). Условия включаются только при РАСПРОСТРАНЕНИИ ИЗМЕНЕНИЙ и касаются ТОЛЬКО этого компонента — выбрать один путь: переименовать во избежание конфликта со Стандартной версией, либо использовать изменения лишь внутри организации, либо раскрыть исходники именно этого компонента (§3/§4). Весь продукт под Artistic не подпадает и остаётся проприетарным; неоднозначность формулировок (FSF) требует оценки профильного специалиста → 🟡 Риск.",
+    "source": "auto",
+    "source_detail": "heuristic",
+    "source_conflict": false,
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "GPL-2.0-or-later": {
+    "spdx_id": "GPL-2.0-or-later",
+    "name_full": "GNU General Public License v2.0 или новее (GPL-2.0-or-later)",
+    "name_ru": "Стандартная общественная лицензия GNU, версия 2 или новее",
+    "verdict": "unsafe",
+    "confidence": "high",
+    "copyleft_type": "strong",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "document-changes",
+      "same-license"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "GPL-2.0-or-later — сильный («вирусный») copyleft: любое распространяемое производное произведение должно ЦЕЛИКОМ лицензироваться под GPL-2.0 (или более поздней версией по выбору получателя) с раскрытием полного соответствующего исходного кода всем получателям (разделы 2b, 3); раздел 7 запрещает распространение при патентных или иных ограничениях. Проприетарность продукта становится невозможной → компонент НЕЛЬЗЯ включить в продукт получателя НИ НА КАКИХ условиях при обычном использовании. Единственное законное применение — полная изоляция (отдельный процесс/инструмент вне поставки) после отдельной проверки условий применения; это исключение, а не способ обезопасить компонент.",
+    "source": "auto",
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "GPL-2.0-only": {
+    "spdx_id": "GPL-2.0-only",
+    "name_full": "GNU General Public License v2.0 only (GPL-2.0-only)",
+    "name_ru": "Стандартная общественная лицензия GNU, версия 2",
+    "verdict": "unsafe",
+    "confidence": "high",
+    "copyleft_type": "strong",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "document-changes",
+      "same-license"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "GPL-2.0 — сильный («вирусный») copyleft: любое распространяемое производное произведение должно ЦЕЛИКОМ лицензироваться под GPL-2.0 с раскрытием полного соответствующего исходного кода всем получателям (разделы 2b, 3); раздел 7 запрещает распространение, если патентные или иные условия мешают безвозмездной передаче Программы всем получателям. Проприетарность продукта становится невозможной → компонент НЕЛЬЗЯ включить в продукт получателя НИ НА КАКИХ условиях при обычном использовании. Единственное законное применение — полная изоляция (отдельный процесс/инструмент вне поставки) после отдельной проверки условий применения; это исключение, а не способ обезопасить компонент.",
+    "source": "auto",
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "GPL-3.0-or-later": {
+    "spdx_id": "GPL-3.0-or-later",
+    "name_full": "GNU General Public License v3.0 or later",
+    "name_ru": "Стандартная общественная лицензия GNU, версия 3 или новее",
+    "verdict": "unsafe",
+    "confidence": "high",
+    "copyleft_type": "strong",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use",
+      "patent-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "document-changes",
+      "same-license"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "GPL-3.0-or-later — сильный («вирусный») copyleft: любое распространяемое произведение, основанное на Программе, должно ЦЕЛИКОМ лицензироваться под GPL-3.0 (или более поздней версией по выбору получателя) с раскрытием полного Соответствующего исходного кода всем получателям (разделы 5, 6); присутствуют патентный грант участников и запрет DRM-замков на потребительских устройствах. Проприетарность продукта становится невозможной → компонент НЕЛЬЗЯ включить в продукт получателя НИ НА КАКИХ условиях при обычном использовании. Единственное законное применение — полная изоляция (отдельный процесс/инструмент вне поставки) после отдельной проверки условий применения; это исключение, а не способ обезопасить компонент.",
+    "source": "auto",
+    "review_required": true,
+    "is_deprecated_spdx_id": false,
+    "mapped_from": null,
+    "translation_status": "verified"
+  },
+  "X11": {
+    "spdx_id": "X11",
+    "name_full": "X11 License",
+    "name_ru": "Лицензия X11",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use"
+    ],
+    "justification_ru": "Пермиссивная лицензия (вариант MIT, исторически — X Window System). Разрешает любое использование, изменение, слияние, публикацию, распространение, сублицензирование и продажу при сохранении уведомления об авторском праве и текста разрешения во всех копиях. Дополнительно: имя «X Consortium» нельзя использовать в рекламе/для продвижения без письменного разрешения (ограничение на имя/товарный знак); «X Window System» — товарный знак. Copyleft отсутствует, раскрытие исходного кода не требуется. Безопасна для распространения получателю.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "GPL-1.0-or-later": {
+    "spdx_id": "GPL-1.0-or-later",
+    "name_full": "GNU General Public License v1.0 or later",
+    "name_ru": "Стандартная общественная лицензия GNU, версия 1 или новее",
+    "verdict": "unsafe",
+    "confidence": "high",
+    "copyleft_type": "strong",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "document-changes",
+      "same-license"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "GPL-1.0 — сильный («вирусный») copyleft: всякое распространяемое произведение, содержащее Программу целиком или частично, должно ЦЕЛИКОМ лицензироваться под GPL с раскрытием полного исходного кода всем получателям (разделы 2b, 3). Проприетарная поставка становится невозможной → компонент НЕЛЬЗЯ включить в продукт получателя НИ НА КАКИХ условиях при обычном использовании (линковка/включение в поставку). Единственное законное применение — полная изоляция (отдельный процесс/инструмент вне поставки) после отдельной проверки условий применения; это исключение, а не способ обезопасить компонент.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "MIT-0": {
+    "spdx_id": "MIT-0",
+    "name_full": "MIT No Attribution",
+    "name_ru": "Лицензия MIT без указания авторства",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Вариант лицензии MIT БЕЗ требования указания авторства: разрешает любое использование, изменение, распространение, сублицензирование и продажу вообще без условий (даже без сохранения уведомления). Copyleft отсутствует, исходный код компонента не раскрывается — ни оригинальный, ни модифицированный. Безопасна для включения в проприетарный продукт и передачи получателю без ограничений.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "Jam": {
+    "spdx_id": "Jam",
+    "name_full": "Jam License",
+    "name_ru": "Лицензия Jam",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes"
+    ],
+    "limitations": [
+      "warranty"
+    ],
+    "justification_ru": "Минимальная пермиссивная лицензия. Разрешает использование и свободное распространение при условии сохранения уведомления об авторском праве и чёткой пометки изменений. Copyleft отсутствует. Безопасна.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "Kazlib": {
+    "spdx_id": "Kazlib",
+    "name_full": "Kazlib License",
+    "name_ru": "Лицензия Kazlib",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes"
+    ],
+    "limitations": [],
+    "justification_ru": "Пермиссивная лицензия. Разрешает свободно воспроизводить и распространять (в т.ч. за плату) при сохранении уведомления об авторском праве; адаптировать с пометкой об изменениях; преобразовывать в исполняемую форму и включать в ПРОПРИЕТАРНОЕ ПО без требования к нему содержать это уведомление. Copyleft отсутствует. Безопасна.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "Latex2e": {
+    "spdx_id": "Latex2e",
+    "name_full": "Latex2e License",
+    "name_ru": "Лицензия Latex2e",
+    "verdict": "risk",
+    "confidence": "high",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "same-license"
+    ],
+    "limitations": [],
+    "justification_ru": "Лицензия документации (руководство LaTeX). Дословные копии — свободно при сохранении уведомлений; «изменённые версии» — только если ВСЁ производное произведение распространяется под идентичным разрешением (share-alike), переводы — на тех же условиях. Реципрокность достигает только сам материал и производное от него (work-scoped), а не весь продукт-ПО → не unsafe. Для документации компонента: распространять дословно можно, модификация порождает производное под той же лицензией → изолировать или не модифицировать; продукт остаётся проприетарным → 🟡 Риск.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "NIST-Software": {
+    "spdx_id": "NIST-Software",
+    "name_full": "NIST Software License",
+    "name_ru": "Лицензия NIST Software",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "ПО, разработанное NIST (госучреждение США), предоставляется как общественная услуга и не охраняется авторским правом в США. Разрешает использование, копирование, распространение, изменение при сохранении уведомления целиком и пометке изменений (дата+характер); просьба указывать NIST как источник. Copyleft отсутствует. Безопасна.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "Spencer-99": {
+    "spdx_id": "Spencer-99",
+    "name_full": "Spencer License 99",
+    "name_ru": "Лицензия Spencer 99",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Пермиссивная (BSD-подобная) лицензия. Разрешает распространение и использование в исходной и двоичной формах для любой цели при сохранении уведомления об авторском праве в исходной форме и указании происхождения и характера изменений. Указание авторства приветствуется, но не обязательно. Copyleft отсутствует. Безопасна.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "libutil-David-Nugent": {
+    "spdx_id": "libutil-David-Nugent",
+    "name_full": "libutil David Nugent License",
+    "name_ru": "Лицензия libutil (David Nugent)",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Пермиссивная (BSD-подобная) лицензия. Разрешает распространение и использование в исходной и двоичной формах при сохранении уведомления об авторском праве, перечня условий и отказа от ответственности; изначально сделана для включения во FreeBSD (иное использование — при сохранении этого примечания). Copyleft отсутствует. Безопасна.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "bzip2-1.0.6": {
+    "spdx_id": "bzip2-1.0.6",
+    "name_full": "bzip2 and libbzip2 License v1.0.6",
+    "name_ru": "Лицензия bzip2/libbzip2 v1.0.6",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use"
+    ],
+    "justification_ru": "Пермиссивная (zlib/BSD-подобная) лицензия. Разрешает использование и распространение в исходной и двоичной формах при сохранении уведомления, запрете искажать происхождение, пометке изменённых версий; имя автора нельзя использовать для продвижения без разрешения (ограничение на имя). Copyleft отсутствует. Безопасна.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "PSF-2.0": {
+    "spdx_id": "PSF-2.0",
+    "name_full": "Python Software Foundation License 2.0",
+    "name_ru": "Лицензия Python Software Foundation, версия 2",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use"
+    ],
+    "justification_ru": "Пермиссивная (GPL-совместимая) лицензия Python Software Foundation. Разрешает воспроизведение, изменение, распространение и иное использование Python при сохранении уведомления PSF об авторском праве и текста лицензии; для производных — краткое изложение изменений; запрет на использование товарных знаков PSF. Прекращается при существенном нарушении. Copyleft отсутствует. Безопасна.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "BlueOak-1.0.0": {
+    "spdx_id": "BlueOak-1.0.0",
+    "name_full": "Blue Oak Model License 1.0.0",
+    "name_ru": "Типовая лицензия Blue Oak 1.0.0",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use",
+      "patent-use"
+    ],
+    "requirements": [
+      "include-copyright"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Современная пермиссивная лицензия с ЯВНЫМ патентным грантом. Разрешает делать с ПО всё, что иначе нарушало бы авторское право и патенты участников. Условие — передавать получателям текст лицензии или ссылку на неё (есть 30-дневный «период исправления» при нарушении уведомлений). Лицензия безотзывна, гарантии и ответственность исключены. Copyleft отсутствует. Безопасна.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "LGPL-2.1-only": {
+    "spdx_id": "LGPL-2.1-only",
+    "name_full": "GNU Lesser General Public License v2.1 only",
+    "name_ru": "Стандартная общественная лицензия ограниченного применения GNU, версия 2.1",
+    "verdict": "risk",
+    "confidence": "high",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "document-changes",
+      "same-license"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Стандартная общественная лицензия ограниченного применения GNU 2.1 (LGPL) — СЛАБЫЙ copyleft для библиотек. Сама Библиотека и её изменения остаются под LGPL с раскрытием исходного кода (разделы 2, 4); изменённые файлы помечаются (2b). НО разрешает связывание (linking) с проприетарными программами: «произведение, использующее Библиотеку» (раздел 5) — вне copyleft, а исполняемый файл с Библиотекой можно распространять на своих условиях (раздел 6) при условии, что пользователь может заменить Библиотеку на изменённую версию (предоставить объектные файлы для релинковки ЛИБО динамическая/разделяемая линковка) + указать использование LGPL + приложить лицензию. → РИСК: при ДИНАМИЧЕСКОЙ линковке и возможности замены обычно совместима с проприетарной поставкой; при СТАТИЧЕСКОЙ нужно отдать объектные файлы для релинковки. Изменения самой Библиотеки остаются под LGPL. Применять при изоляции/динамической линковке и после отдельной проверки условий применения.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "LGPL-2.0-only": {
+    "spdx_id": "LGPL-2.0-only",
+    "name_full": "GNU Library General Public License v2 only",
+    "name_ru": "Стандартная общественная лицензия GNU для библиотек, версия 2",
+    "verdict": "risk",
+    "confidence": "high",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "document-changes",
+      "same-license"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Стандартная общественная лицензия GNU для библиотек, версия 2 (Library GPL — предшественница LGPL-2.1) — СЛАБЫЙ copyleft для библиотек. Сама Библиотека и её изменения остаются под этой лицензией с раскрытием исходного кода (разделы 2, 4); изменённые файлы помечаются (2b). НО разрешает связывание (linking) с проприетарными программами: «произведение, использующее Библиотеку» (раздел 5) вне copyleft, а исполняемый файл с Библиотекой можно распространять на своих условиях (раздел 6) при условии, что пользователь может заменить Библиотеку на изменённую версию (объектные файлы для релинковки) + указать использование лицензии + приложить её текст. → РИСК: при возможности замены/релинковки обычно совместима с проприетарной поставкой; изменения самой Библиотеки остаются под этой лицензией. Применять при изоляции/динамической линковке и после отдельной проверки условий применения.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "LGPL-2.0-or-later": {
+    "spdx_id": "LGPL-2.0-or-later",
+    "name_full": "GNU Library General Public License v2 or later",
+    "name_ru": "Стандартная общественная лицензия GNU для библиотек, версия 2 или новее",
+    "verdict": "risk",
+    "confidence": "high",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "document-changes",
+      "same-license"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Стандартная общественная лицензия GNU для библиотек, версия 2 (Library GPL — предшественница LGPL-2.1) — СЛАБЫЙ copyleft для библиотек. Сама Библиотека и её изменения остаются под этой лицензией с раскрытием исходного кода (разделы 2, 4); изменённые файлы помечаются (2b). НО разрешает связывание (linking) с проприетарными программами: «произведение, использующее Библиотеку» (раздел 5) вне copyleft, а исполняемый файл с Библиотекой можно распространять на своих условиях (раздел 6) при условии, что пользователь может заменить Библиотеку на изменённую версию (объектные файлы для релинковки) + указать использование лицензии + приложить её текст. → РИСК: при возможности замены/релинковки обычно совместима с проприетарной поставкой; изменения самой Библиотеки остаются под этой лицензией. Применять при изоляции/динамической линковке и после отдельной проверки условий применения.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "LGPL-3.0-only": {
+    "spdx_id": "LGPL-3.0-only",
+    "name_full": "GNU Lesser General Public License v3.0 only",
+    "name_ru": "Стандартная общественная лицензия ограниченного применения GNU, версия 3",
+    "verdict": "risk",
+    "confidence": "high",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use",
+      "patent-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "document-changes",
+      "same-license"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Стандартная общественная лицензия ограниченного применения GNU 3.0 (LGPL-3.0) — СЛАБЫЙ copyleft для библиотек; включает весь текст GNU GPL-3.0 + дополнительные разрешения для линковки. Сама Библиотека и её изменения остаются под LGPL с раскрытием исходного кода, НО разрешает линковку с проприетарным «Приложением» в «Объединённое произведение» (раздел 4), если обеспечена возможность заменить Библиотеку на изменённую версию (Минимальный исходный код + код Приложения для релинковки ЛИБО динамическая/разделяемая библиотека) + указать LGPL + приложить тексты GPL и LGPL. Патентный грант и защита от DRM — из GPL-3.0. → РИСК: при динамической линковке/возможности замены обычно совместима с проприетарной поставкой; изменения самой Библиотеки остаются под LGPL. Применять при изоляции/динамической линковке и после отдельной проверки условий применения.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "LGPL-3.0-or-later": {
+    "spdx_id": "LGPL-3.0-or-later",
+    "name_full": "GNU Lesser General Public License v3.0 or later",
+    "name_ru": "Стандартная общественная лицензия ограниченного применения GNU, версия 3 или новее",
+    "verdict": "risk",
+    "confidence": "high",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use",
+      "patent-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "document-changes",
+      "same-license"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "Стандартная общественная лицензия ограниченного применения GNU 3.0 (LGPL-3.0) — СЛАБЫЙ copyleft для библиотек; включает весь текст GNU GPL-3.0 + дополнительные разрешения для линковки. Сама Библиотека и её изменения остаются под LGPL с раскрытием исходного кода, НО разрешает линковку с проприетарным «Приложением» в «Объединённое произведение» (раздел 4), если обеспечена возможность заменить Библиотеку на изменённую версию (Минимальный исходный код + код Приложения для релинковки ЛИБО динамическая/разделяемая библиотека) + указать LGPL + приложить тексты GPL и LGPL. Патентный грант и защита от DRM — из GPL-3.0. → РИСК: при динамической линковке/возможности замены обычно совместима с проприетарной поставкой; изменения самой Библиотеки остаются под LGPL. Применять при изоляции/динамической линковке и после отдельной проверки условий применения.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "AGPL-3.0-only": {
+    "spdx_id": "AGPL-3.0-only",
+    "name_full": "GNU Affero General Public License v3.0 only",
+    "name_ru": "Стандартная общественная лицензия GNU Affero, версия 3",
+    "verdict": "unsafe",
+    "confidence": "high",
+    "copyleft_type": "network",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use",
+      "patent-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "document-changes",
+      "same-license",
+      "network-use-disclose"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "AGPL-3.0 — сетевой copyleft: содержит все обязательства сильного copyleft GPL-3.0 (весь производный продукт под AGPL + раскрытие исходного кода всем получателям) ПЛЮС §13 — при удалённом сетевом взаимодействии (SaaS/веб-сервис) оператор обязан безвозмездно предоставить сетевым пользователям полный Соответствующий исходный код своей версии, даже без передачи бинарника. Проприетарность продукта и закрытый SaaS становятся невозможными → компонент НЕЛЬЗЯ включить ни в поставку, ни в сервис НИ НА КАКИХ условиях при обычном использовании. Единственное законное применение — полная изоляция (отдельный процесс/инструмент вне продукта и сервиса) после отдельной проверки условий применения; это исключение, а не способ обезопасить компонент.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "AGPL-3.0-or-later": {
+    "spdx_id": "AGPL-3.0-or-later",
+    "name_full": "GNU Affero General Public License v3.0 or later",
+    "name_ru": "Стандартная общественная лицензия GNU Affero, версия 3 или новее",
+    "verdict": "unsafe",
+    "confidence": "high",
+    "copyleft_type": "network",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use",
+      "patent-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "document-changes",
+      "same-license",
+      "network-use-disclose"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "AGPL-3.0-or-later — сетевой copyleft на базе GPL-3.0 (или более поздней версии по выбору получателя): все обязательства сильного copyleft (весь производный продукт под AGPL + раскрытие исходного кода всем получателям) ПЛЮС §13 — при удалённом сетевом взаимодействии (SaaS/веб-сервис) оператор обязан безвозмездно предоставить сетевым пользователям полный Соответствующий исходный код своей версии, даже без передачи бинарника. Проприетарность продукта и закрытый SaaS становятся невозможными → компонент НЕЛЬЗЯ включить ни в поставку, ни в сервис НИ НА КАКИХ условиях при обычном использовании. Единственное законное применение — полная изоляция (отдельный процесс/инструмент вне продукта и сервиса) после отдельной проверки условий применения; это исключение, а не способ обезопасить компонент.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "CC-BY-3.0": {
+    "spdx_id": "CC-BY-3.0",
+    "name_full": "Creative Commons Attribution 3.0 Unported",
+    "name_ru": "Creative Commons «С указанием авторства» 3.0 Непортированная",
+    "verdict": "risk",
+    "confidence": "medium",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use"
+    ],
+    "justification_ru": "Creative Commons «С указанием авторства» 3.0 — лицензия, ориентированная на КОНТЕНТ (тексты, медиа, данные, документация), а не на программный код. Copyleft отсутствует, раскрытие исходного кода производного НЕ требуется, продукт в целом остаётся проприетарным. Тем не менее это РИСК (вердикт не зависит от вида компонента): §4(a) запрещает налагать на Произведение эффективные технические средства защиты (DRM), ограничивающие возможность получателя осуществлять предоставленные права, — компонент должен оставаться доступным получателю; обязательная атрибуция (для Адаптаций — пометка изменений) не приспособлена к ПО; патентный грант отсутствует; Creative Commons и FSF не рекомендуют CC-BY для программного обеспечения. → 🟡 Риск: применять при изоляции компонента и после отдельной проверки условий применения.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "CC-BY-SA-3.0": {
+    "spdx_id": "CC-BY-SA-3.0",
+    "name_full": "Creative Commons Attribution Share Alike 3.0 Unported",
+    "name_ru": "Creative Commons «С указанием авторства — Сохранение условий» 3.0 Непортированная",
+    "verdict": "risk",
+    "confidence": "medium",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes",
+      "same-license"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use"
+    ],
+    "justification_ru": "Creative Commons «С указанием авторства — Сохранение условий» 3.0 — лицензия для КОНТЕНТА с условием ShareAlike (Сохранение условий), не для ПО. ВАЖНО (почему РИСК, а не НЕБЕЗОПАСНО): share-alike привязан к произведению (work-scoped) — реципрокность достигает только сам материал и его Адаптации; простое неизменённое включение в Коллекцию/агрегат НЕ создаёт Адаптации и НЕ переводит весь продукт под SA (раздел 4(b), определение Collection) → продукт в целом остаётся проприетарным при изоляции. Риск: любая модификация/интеграция, порождающая Адаптацию, обязывает выпустить её под CC-BY-SA (несовместимо с проприетарностью этой части); плюс обязательная атрибуция и непригодность CC для софта. → 🟡 Риск (вердикт не зависит от вида компонента); допустимо при ИЗОЛЯЦИИ (неизменённое включение как отдельная коллекция) и после отдельной проверки условий применения.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "CC-BY-4.0": {
+    "spdx_id": "CC-BY-4.0",
+    "name_full": "Creative Commons Attribution 4.0 International",
+    "name_ru": "Creative Commons «С указанием авторства» 4.0 Всемирная",
+    "verdict": "risk",
+    "confidence": "medium",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use",
+      "patent-use"
+    ],
+    "justification_ru": "Creative Commons «С указанием авторства» 4.0 — лицензия, ориентированная на КОНТЕНТ (тексты, медиа, данные, базы данных), а не на программный код. Copyleft отсутствует, раскрытие исходного кода производного НЕ требуется, продукт в целом остаётся проприетарным. Тем не менее это РИСК (вердикт не зависит от вида компонента): §2(a)(5)(B) запрещает применять к Лицензируемому материалу Эффективные технические средства защиты (ETM/DRM), если это ограничивает осуществление получателем предоставленных прав, — компонент должен оставаться доступным получателю; §2(b) ПРЯМО исключает лицензирование патентов и товарных знаков (патентный риск не закрыт текстом); обязательная атрибуция не приспособлена к ПО; охватывает Особые права на базы данных (Sui Generis); Creative Commons и FSF не рекомендуют CC-BY для программного обеспечения. → 🟡 Риск: применять при изоляции компонента и после отдельной проверки условий применения.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "CC-BY-SA-4.0": {
+    "spdx_id": "CC-BY-SA-4.0",
+    "name_full": "Creative Commons Attribution Share Alike 4.0 International",
+    "name_ru": "Creative Commons «С указанием авторства — Сохранение условий» 4.0 Всемирная",
+    "verdict": "risk",
+    "confidence": "medium",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes",
+      "same-license"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use",
+      "patent-use"
+    ],
+    "justification_ru": "Creative Commons «С указанием авторства — Сохранение условий» 4.0 — лицензия для КОНТЕНТА с условием ShareAlike, не для ПО. ВАЖНО (почему РИСК, а не НЕБЕЗОПАСНО): share-alike привязан к произведению (work-scoped) — достигает только сам материал и Адаптированный материал; неизменённое включение рядом с независимыми произведениями (Коллекция) НЕ создаёт Адаптации и НЕ переводит весь продукт под SA → продукт остаётся проприетарным при изоляции. Риск: создание Адаптации обязывает выпустить её под совместимой BY-SA (раздел 3(b)); раздел 2(b) ПРЯМО исключает патенты и товарные знаки; охватывает Особые права на базы данных. → 🟡 Риск (вердикт не зависит от вида компонента); допустимо при ИЗОЛЯЦИИ (неизменённое включение) и после отдельной проверки условий применения.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "GFDL-1.2-only": {
+    "spdx_id": "GFDL-1.2-only",
+    "name_full": "GNU Free Documentation License v1.2 only",
+    "name_ru": "Лицензия свободной документации GNU, версия 1.2",
+    "verdict": "risk",
+    "confidence": "medium",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes",
+      "same-license"
+    ],
+    "limitations": [
+      "trademark-use"
+    ],
+    "justification_ru": "GFDL 1.2 — copyleft для ДОКУМЕНТАЦИИ, не для кода. Раскрытие/share-alike достигает только сам документ и его производные (work-scoped), но НЕ продукт-ПО: ваш проприетарный продукт под GFDL не подпадает. Производная документация обязана идти под той же GFDL (плюс возможные инвариантные секции и «прозрачная» копия при больших тиражах), поэтому безусловно передать документацию получателю нельзя → нужна изоляция или замена документации. Даже с инвариантными секциями ограничение остаётся work-scoped → 🟡 Риск (не 🔴).",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "GFDL-1.3-no-invariants-only": {
+    "spdx_id": "GFDL-1.3-no-invariants-only",
+    "name_full": "GNU Free Documentation License v1.3 only - no invariants",
+    "name_ru": "Лицензия свободной документации GNU, версия 1.3 (без инвариантных секций)",
+    "verdict": "risk",
+    "confidence": "medium",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes",
+      "same-license"
+    ],
+    "limitations": [
+      "trademark-use"
+    ],
+    "justification_ru": "GFDL 1.3 в варианте БЕЗ инвариантных секций — copyleft для ДОКУМЕНТАЦИИ, не для кода; снята самая тяжёлая часть (неизменяемые секции). Share-alike достигает только сам документ и его производные (work-scoped), а не продукт-ПО — ваш проприетарный продукт под GFDL не подпадает. Но производная документация обязана идти под той же GFDL, поэтому безусловно передать её получателю без ограничений нельзя → требуется изоляция или замена документации. Продукт остаётся проприетарным → 🟡 Риск.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "CDDL-1.0": {
+    "spdx_id": "CDDL-1.0",
+    "name_full": "Common Development and Distribution License 1.0",
+    "name_ru": "Общая лицензия разработки и распространения (CDDL), версия 1.0",
+    "verdict": "risk",
+    "confidence": "high",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use",
+      "patent-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "document-changes",
+      "same-license--file"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "patent-retaliation"
+    ],
+    "justification_ru": "Общая лицензия разработки и распространения (CDDL) 1.0 — СЛАБЫЙ (пофайловый) copyleft, близкий к MPL (распорядитель — Sun Microsystems). Разрешает использование, изменение, распространение + патентный грант. Условия: «Охватываемое ПО» (изменённые/новые файлы с кодом по CDDL) распространять с открытием Исходного кода под CDDL (раздел 3.1); помечать себя как Участника изменений (3.3); сохранять уведомления. МОЖНО объединять с кодом под другой лицензией в «Бо́льшее произведение» и распространять Исполняемую форму под своей лицензией (3.5/3.6) — но сами CDDL-файлы остаются под CDDL с открытым исходником. Патентная ретрорсия (§6.2). → РИСК: при изоляции в отдельных файлах/динамической комбинации обычно приемлемо, но требует открытия исходников CDDL-файлов и несовместима с GPL. Применять при условиях и после отдельной проверки условий применения.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "MPL-1.1": {
+    "spdx_id": "MPL-1.1",
+    "name_full": "Mozilla Public License 1.1",
+    "name_ru": "Публичная лицензия Mozilla, версия 1.1",
+    "verdict": "risk",
+    "confidence": "high",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use",
+      "patent-use"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "document-changes",
+      "same-license--file"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use",
+      "patent-retaliation"
+    ],
+    "justification_ru": "Публичная лицензия Mozilla (MPL) 1.1 — СЛАБЫЙ (пофайловый) copyleft (предшественница MPL-2.0; распорядитель — Netscape). Разрешает использование, изменение, распространение + патентный грант. Условие: Модификации Охватываемого кода доступны в форме Исходного кода под MPL (§3.1/3.2) — copyleft ПОФАЙЛОВО; описывать изменения (§3.3), вести файл LEGAL о патентах/притязаниях третьих сторон (§3.4). МОЖНО объединять с другим кодом в «Бо́льшее произведение» и распространять Исполняемую форму под своей лицензией (§3.6/3.7) — но MPL-файлы остаются под MPL с открытым исходником. Патентная ретрорсия (§8.2). Возможно «множественное лицензирование» (§13). → РИСК: при изоляции в отдельных файлах обычно приемлемо, но требует открытия исходников MPL-файлов; несовместима с GPL. Применять при условиях и после отдельной проверки условий применения.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "SGI-B-1.1": {
+    "spdx_id": "SGI-B-1.1",
+    "name_full": "SGI Free Software License B v1.1",
+    "name_ru": "Лицензия SGI на свободное программное обеспечение B, версия 1.1",
+    "verdict": "safe",
+    "confidence": "medium",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use",
+      "patent-use"
+    ],
+    "requirements": [
+      "include-copyright"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use"
+    ],
+    "justification_ru": "Лицензия SGI на свободное ПО B 1.1 — ПЕРМИССИВНАЯ (используется в X.org/Mesa). Разрешает коммерческое использование, изменение, распространение, создание производных произведений + патентный грант (§2.1). Требует лишь сохранять Уведомление и копию Лицензии при распространении (§3.1). НЕ требует раскрытия исходников изменений и НЕ навязывает ту же лицензию: §3.2 прямо разрешает распространять Охватываемый код под собственной лицензией по выбору (включив ряд обязательных разделов). §5 запрещает использование товарных знаков/наименования SGI без письменного разрешения. Без copyleft → совместима с распространением получателю. Особенности: пункты о возмещении (§3.3/§11) и калифорнийском праве (§13) не влияют на свободу использования кода. Низкий риск.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "FTL": {
+    "spdx_id": "FTL",
+    "name_full": "Freetype Project License",
+    "name_ru": "Лицензия Проекта FreeType (FTL)",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use"
+    ],
+    "requirements": [
+      "include-copyright",
+      "document-changes"
+    ],
+    "limitations": [
+      "liability",
+      "warranty",
+      "trademark-use"
+    ],
+    "justification_ru": "Лицензия Проекта FreeType (FTL) — ПЕРМИССИВНАЯ (движок шрифтов FreeType, крайне распространён; вдохновлена BSD/Artistic/IJG, поощряет коммерческое использование). Copyleft отсутствует: исходный код компонента не предоставляется пользователю — ни оригинальный, ни модифицированный, и не навязывается та же лицензия на производное. Условия минимальны: сохранять файл лицензии FTL.TXT, помечать изменения, указывать авторство FreeType (credit); §3 запрещает использовать имя в рекламе без письменного разрешения. Совместима с передачей проприетарного продукта получателю без ограничений → 🟢 Безопасно.",
+    "source": "auto",
+    "translation_status": "verified"
+  },
+  "Classpath-exception-2.0": {
+    "spdx_id": "Classpath-exception-2.0",
+    "name_full": "Classpath exception 2.0",
+    "name_ru": "Исключение Classpath 2.0",
+    "verdict": "risk",
+    "confidence": "high",
+    "copyleft_type": "weak",
+    "permissions": [
+      "linking-exception"
+    ],
+    "requirements": [
+      "disclose-source"
+    ],
+    "limitations": [],
+    "justification_ru": "ⓘ Это ИСКЛЮЧЕНИЕ (модификатор) к Стандартной общественной лицензии GNU (GPL); само по себе не является самостоятельной лицензией. Применяется как «GPL WITH Classpath-exception-2.0» (OpenJDK, GNU Classpath). СНИМАЕТ ключевое ограничение GPL: разрешает связывать GPL-библиотеку с НЕЗАВИСИМЫМИ модулями и распространять полученный исполняемый файл на ваших условиях (ваш проприетарный код НЕ становится GPL из-за линковки). По эффекту приближает GPL к LGPL. ОДНАКО сама библиотека и любые ваши изменения В НЕЙ остаются под GPL (исходники этих частей нужно раскрывать). → РИСК: использование как готовой библиотеки (без правки её исходников) обычно приемлемо; модификации библиотеки тянут GPL. Применять после отдельной проверки условий применения.",
+    "source": "auto",
+    "translation_status": "verified",
+    "is_exception": true
+  },
+  "LLVM-exception": {
+    "spdx_id": "LLVM-exception",
+    "name_full": "LLVM Exception",
+    "name_ru": "Исключение LLVM (к Apache 2.0)",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "notice-relaxation",
+      "gpl-compatibility"
+    ],
+    "requirements": [],
+    "limitations": [],
+    "justification_ru": "ⓘ Это ИСКЛЮЧЕНИЕ к Лицензии Apache 2.0 (LLVM/Clang); применяется как «Apache-2.0 WITH LLVM-exception». (1) Разрешает повторно распространять части ПО, встроенные в объектный код в результате компиляции, БЕЗ соблюдения условий об уведомлениях Apache §4(a)/(b)/(d) — т.е. вывод компилятора (runtime) не обременён. (2) Обеспечивает совместимость с GPLv2 (можно исключить конфликтующие разделы Apache в отношении объединения с GPLv2-кодом). По эффекту Apache-2.0 WITH LLVM-exception ≈ ПЕРМИССИВНАЯ. → БЕЗОПАСНО для распространения получателю.",
+    "source": "auto",
+    "translation_status": "verified",
+    "is_exception": true
+  },
+  "Qt-GPL-exception-1.0": {
+    "spdx_id": "Qt-GPL-exception-1.0",
+    "name_full": "Qt GPL exception 1.0",
+    "name_ru": "Исключение GPL компании Qt 1.0",
+    "verdict": "risk",
+    "confidence": "medium",
+    "copyleft_type": "weak",
+    "permissions": [
+      "linking-exception",
+      "output-exception"
+    ],
+    "requirements": [
+      "disclose-source"
+    ],
+    "limitations": [],
+    "justification_ru": "ⓘ Это ИСКЛЮЧЕНИЕ к GPL (инструменты Qt, The Qt Company); применяется как «GPL WITH Qt-GPL-exception-1.0». Исключение 1: большее произведение, содержащее ВЫВОД приложения (напр. сгенерированный код), можно распространять на ваших условиях (если оно не произведено из самого приложения). Исключение 2: можно объединять приложение с Плагинами под любыми лицензиями и распространять исполняемый файл на ваших условиях, НО исполняемый файл должен сопровождаться предложением предоставить весь исходный код приложения (кроме независимых модулей, но включая ваши изменения приложения) на условиях GPL. → РИСК: вывод и плагины освобождаются, но исходный код самого приложения и ваши изменения в нём остаются обязательны к раскрытию под GPL. По согласованию с профильным специалистом.",
+    "source": "auto",
+    "translation_status": "verified",
+    "is_exception": true
+  },
+  "Autoconf-exception-2.0": {
+    "spdx_id": "Autoconf-exception-2.0",
+    "name_full": "Autoconf exception 2.0",
+    "name_ru": "Исключение Autoconf 2.0",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "output-exception"
+    ],
+    "requirements": [],
+    "limitations": [],
+    "justification_ru": "ⓘ Это ИСКЛЮЧЕНИЕ к GPL (FSF, для Autoconf). Даёт неограниченное разрешение копировать/распространять/изменять скрипты configure — ВЫВОД Autoconf — БЕЗ соблюдения GPL, даже если части текста Autoconf попадают в них. Сама программа Autoconf остаётся под GPL. → БЕЗОПАСНО: сгенерированный скрипт configure в вашем продукте не накладывает GPL-обязательств.",
+    "source": "auto",
+    "translation_status": "verified",
+    "is_exception": true
+  },
+  "Autoconf-exception-3.0": {
+    "spdx_id": "Autoconf-exception-3.0",
+    "name_full": "Autoconf exception 3.0",
+    "name_ru": "Исключение для скрипта configure Autoconf, версия 3.0",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "output-exception"
+    ],
+    "requirements": [],
+    "limitations": [],
+    "justification_ru": "ⓘ Это ИСКЛЮЧЕНИЕ к GPLv3 (дополнительное разрешение по §7; FSF, для Autoconf). Цель — разрешить распространение типичного ВЫВОДА Autoconf на условиях по выбору получателя (включая проприетарные). Ограничение: если ваши изменения Autoconf превращают «неподходящий код» в «обычно копируемый», исключение аннулируется. Сам Autoconf остаётся под GPLv3. → БЕЗОПАСНО: сгенерированный configure в вашем продукте не накладывает GPL-обязательств.",
+    "source": "auto",
+    "translation_status": "verified",
+    "is_exception": true
+  },
+  "Texinfo-exception": {
+    "spdx_id": "Texinfo-exception",
+    "name_full": "Texinfo exception",
+    "name_ru": "Исключение Texinfo",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "output-exception"
+    ],
+    "requirements": [],
+    "limitations": [],
+    "justification_ru": "ⓘ Это ИСКЛЮЧЕНИЕ к GPLv3 (дополнительное разрешение по §7). Разрешает использовать БЕЗ ограничений результат, полученный, когда файл читается TeX при обработке исходного документа Texinfo. → БЕЗОПАСНО: результат обработки (ваша документация) не покрывается GPL из-за этого файла.",
+    "source": "auto",
+    "translation_status": "verified",
+    "is_exception": true
+  },
+  "Font-exception-2.0": {
+    "spdx_id": "Font-exception-2.0",
+    "name_full": "Font exception 2.0",
+    "name_ru": "Шрифтовое исключение 2.0 (GPL)",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "embed-exception"
+    ],
+    "requirements": [],
+    "limitations": [],
+    "justification_ru": "ⓘ Это ИСКЛЮЧЕНИЕ к GPL (для шрифтов, напр. GNU FreeFont); применяется как «GPL WITH Font-exception-2.0». Если вы СОЗДАЁТЕ документ, который использует/встраивает шрифт, сам шрифт не приводит к тому, что документ покрывается GPL. Сам шрифт остаётся под GPL (изменения шрифта тянут GPL). → БЕЗОПАСНО: встраивание шрифта в документ/продукт не накладывает GPL на документ (иные причины GPL-покрытия исключение не отменяет).",
+    "source": "auto",
+    "translation_status": "verified",
+    "is_exception": true
+  },
+  "Libtool-exception": {
+    "spdx_id": "Libtool-exception",
+    "name_full": "Libtool Exception",
+    "name_ru": "Исключение Libtool",
+    "verdict": "safe",
+    "confidence": "high",
+    "copyleft_type": "none",
+    "permissions": [
+      "output-exception"
+    ],
+    "requirements": [],
+    "limitations": [],
+    "justification_ru": "ⓘ Это ИСКЛЮЧЕНИЕ к GPL (для файлов, генерируемых/используемых GNU Libtool, напр. ltdl). Если вы распространяете этот файл как часть программы/библиотеки, собранной с GNU Libtool, вы можете включить его на ТЕХ ЖЕ условиях, что и остальная ваша программа. → БЕЗОПАСНО: вспомогательный файл Libtool не навязывает GPL вашему продукту.",
+    "source": "auto",
+    "translation_status": "verified",
+    "is_exception": true
+  },
+  "GPL-2.0-with-classpath-exception": {
+    "spdx_id": "GPL-2.0-with-classpath-exception",
+    "name_full": "GNU General Public License v2.0 w/Classpath exception",
+    "name_ru": "Стандартная общественная лицензия GNU, версия 2.0, с исключением Classpath",
+    "verdict": "risk",
+    "confidence": "high",
+    "copyleft_type": "weak",
+    "permissions": [
+      "commercial-use",
+      "modifications",
+      "distribution",
+      "private-use",
+      "linking-exception"
+    ],
+    "requirements": [
+      "disclose-source",
+      "include-copyright",
+      "same-license"
+    ],
+    "limitations": [
+      "liability",
+      "warranty"
+    ],
+    "justification_ru": "ⓘ Это УСТАРЕВШИЙ составной SPDX-идентификатор «GNU GPL v2.0 с исключением Classpath» (современная форма — «GPL-2.0-only WITH Classpath-exception-2.0»). Канонический текст в каталоге SPDX по этому id — лишь ЗАГЛУШКА («вставьте сюда текст лицензии GPL v2») + текст самого исключения Classpath; полный обязывающий текст см. на странице GPL-2.0-only плюс Classpath-exception-2.0. По существу: это GPL-2.0 (сильный copyleft) С исключением Classpath, которое СНИМАЕТ ограничение GPL на линковку — разрешает связывать GPL-библиотеку с независимыми модулями и распространять исполняемый файл на ваших условиях (по эффекту ≈ LGPL). ОДНАКО сама библиотека и ваши изменения В НЕЙ остаются под GPL-2.0 (исходники этих частей нужно раскрывать). → РИСК: использование как готовой библиотеки (без правки её исходников) обычно приемлемо; модификации тянут GPL. Применять после отдельной проверки условий применения.",
+    "source": "auto",
+    "translation_status": "verified",
+    "is_deprecated_spdx_id": true
+  }
+}

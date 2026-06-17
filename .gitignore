@@ -1,0 +1,18 @@
+# Local workspace and editor files
+local/
+.claude/
+.obsidian/
+website/.obsidian/
+.gigacode/
+.minimax/
+*.canvas
+
+# Generated/cache files
+rbpo/_*.py
+**/__pycache__/
+*.pyc
+*.orig
+
+# OS files
+.DS_Store
+Thumbs.db

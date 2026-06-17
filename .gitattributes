@@ -1,0 +1,20 @@
+# Текстовые файлы — нормализуем переводы строк к LF в репозитории.
+* text eol=lf
+
+# Бинарные файлы — НЕ трогать (иначе CRLF-нормализация портит их, напр. .ico).
+*.ico   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.bmp   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.otf   binary
+*.eot   binary
+*.pdf   binary
+*.zip   binary
+*.docx  binary
+*.odt   binary
